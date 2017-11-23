@@ -1,0 +1,33 @@
+{
+  "name": "big-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/prod.server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sevas727/BigDemoApp.git"
+  },
+  "keywords": [
+    "photo editor",
+    "flickering",
+    "i18n",
+    "unit",
+    "test",
+    "canvas",
+    "DnD"
+  ],
+  "author": "Fedotov V.V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sevas727/BigDemoApp/issues"
+  },
+  "homepage": "https://github.com/Sevas727/BigDemoApp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}
